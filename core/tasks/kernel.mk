@@ -116,7 +116,7 @@ ifeq ($(KERNEL_TOOLCHAIN),)
 KERNEL_TOOLCHAIN := $(ARM_EABI_TOOLCHAIN)
 endif
 ifeq ($(KERNEL_TOOLCHAIN_PREFIX),)
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN_PREFIX := arm-cortex_a15-linux-gnueabihf-
 endif
 
 define mv-modules
